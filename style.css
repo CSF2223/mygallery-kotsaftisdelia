@@ -5,3 +5,84 @@ font color:
 secondary color:   
 tertiary color:    
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans :wght@450');
+
+html {
+    font-size: 65%;    
+}
+
+header {
+    margin: 0 4rem;
+    letter-spacing: 1rem;
+    text-align: center;
+    border-bottom: 6px solid #9CFF2E;
+    border-right: 6px solid #9CFF2E;
+    border-left: 6px solid #9CFF2E;
+    padding: 1rem;
+    box-shadow: 6px 4px 5px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    
+}
+
+body {
+   background-color: #2192FF;
+   color: #38EF4D;
+   font-family: 'bold', sans-serif;
+   margin: 0;
+
+}
+
+cite {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.imageCard   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 2rem;
+}
+
+.imageCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.imageCard a {
+    text-decoration: none;
+    color: #FDFF00;
+}
+
+.cardText {
+    color: #FDFF00;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+    header {
+        font-size: 1.6rem;
+    }
+
+    .gallery {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+    } 
+    .imageCard {
+        max-width: 28%;
+    }
+}
